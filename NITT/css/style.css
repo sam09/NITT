@@ -5,6 +5,17 @@ top:0;
 	
 	position: absolute;	
 }
+@font-face
+{
+ font-family: tahom;
+    src: url('/NITT/img/Tahoma.ttf');
+}
+@font-face
+{
+ font-family: ali;
+    src: url('/NITT/img/Signika/Signika-Regular.ttf');
+}
+
 .ease
 {
 
@@ -16,25 +27,25 @@ top:0;
 .htitle
 {
 
-	background: #033C59;
 	
 	top:0;
 	left:0;
 	width:100%;
-	height:130px;
+	height:355px;
+	background:#2D2D2F url('/NITT/img/slider1.png') no-repeat;
+	background-size: cover;
 	
 	
 }
 .hmenu
 {
-	
-	
+	font-family: Arial;	
 	line-height: 70px;
 	left:0;
 	width:100%;
 	height:70px;
-	box-shadow: 0px 2px 8px  7px #888888;
-	text-align: center;
+	background:#2D2D2F;
+
 }
 
 .footer
@@ -73,7 +84,7 @@ top:0;
 	
 	width:100%;
 	height:202px;
-	background:#494949;
+	background:#2D2D2F;
 }
 .eve
 {
@@ -133,11 +144,230 @@ margin-top: 0;
 
 
 }
+.din
+{
+	display: inline-block;
+	list-style-type: none;
+	vertical-align: top;
+	padding: 2px;
+	word-wrap:break-word;	
+}
+.date
+{
+	top:0;
+	left:0;
+	display: inline-block;
+	
+	width:60px;
+	height:50px;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	background:white;
+	
+	color:#A66900;
+}
+.date div
+{
+	width:100%;
+	height: 50%;
+	left:0;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #D8D8D8;
+	color: #515151;
+}
+.heading
+{
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.25em;
+	
+}
+.normal
+{
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.link
+{
+		-webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+	cursor: pointer;
+	color:#2D2D2F;
+}
+.link:hover
+{
+	color:#000;
+	text-decoration: underline;
+}
+.orange
+{
+	color:#A66900;
+}
+.tbar
+{
+	
+	font-family: tahom;	
+	line-height: 30px;
+	left:0;
+	width:100%;
+	height:30px;
+	background:#2D2D2F;
+	color:#fff;
+	font-size: 13px;
+	
+}
+.scroll
+{
+	overflow: scroll;
+	overflow-x:hidden;
+}
+.mcon
+{
+	font: normal normal normal 26px/1.2em "Arial Black", Gadget, sans-serif;
+	padding-top:30px;
+	padding-bottom: 30px;
+	width:99%;
+	display:block;
+	position:relative;
+	
+}
+.scon
+{
+	font: normal normal normal 26px/1.2em "Arial Black", Gadget, sans-serif;
+	padding-top:30px;
+	left:0;
+	padding-bottom: 30px;
+	width:100%;
+	background-color: #E5E5E5;
+	display:block;
+	position:relative;
+	
+}
+
+.vision
+{
+
+	padding-top: 10px;
+	position:relative;
+	display: inline-block;
+	text-align: left;
+	background:#FFB400;
+	color:#fff;
+	width:300px;
+	
+}
+.news
+{
+	width:95%;
+}
+.gbar
+{
+	font-family: ali;
+	font-size:15px;
+	font-weight: bold;
+}
+.ibar
+{
+	font-size:13px;
+	line-height: 14px;
+	font-family: ali;
+}
+.bborder
+{
+	border-top:3px solid #2D2D2F;
+}
+.seading
+{
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.25em;
+	cursor: pointer;
+}
+.seading:hover
+{
+	color:#FFB400;
+}
+.bbar
+{
+	vertical-align: top;
+	position:relative;
+	display: inline-block;
+	
+	padding:10px;
+	
+	min-width: 320px;
+}
+.mission
+{
+
+	padding-top: 10px;
+
+	position:relative;
+	display: inline-block;
+	text-align: center;
+	background:#A66900;
+	color:#fff;
+	width:300px;
+	
+}
+
+.mission p
+{
+
+	padding:5px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+	color:#000;
+}
+.vision hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0; }
+.vision p
+{
+
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+	color:#000;
+}
+.bar
+{
+	vertical-align: top;
+	position:relative;
+	display: inline-block;
+	width:310px;
+	padding:10px;
+	text-align: center;
+}
+.vision p
+{
+	padding:5px;
+}
+.tbar a
+{
+	color:#fff;
+	text-decoration: none;
+}
+.tbar a:hover
+{
+	color:#FFB400;
+}
 .hmenu ul
 {
 	margin-top: 0px;
 	vertical-align: top;
-	float: left;
+	
 
 	text-align: center;
 	width:90%;
@@ -147,20 +377,22 @@ margin-top: 0;
 .hmenu	li
 {
 	cursor: pointer;
+font-size: 12px;
+color: #fff;
+text-transform: uppercase;
 
-float:left; padding-right:0px;
-	width:12%;
+	width:10%;
 	height: 100%;
 	display: inline-block;
 
 }
 .hmenu li:hover
 {
-	background: #888888;
+	color:#FFB400;
 }
 .active
 {
-	background: #006699;
+	color: #FFB400;
 }
 .htitle img
 {
