@@ -1,6 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text\stylesheet" href="css/sidebar.css"/>
 	<script src="js/script.js"></script>
 </head>
 <body>
@@ -25,6 +26,15 @@
 		</div>
 		
 		
+		<div id="sidebar">
+		<nav>
+  		  <ul>
+		    <li><a href="#">Home</a></li>
+		    <li><a href="#">About</a></li>
+		    <li><a href="#">Work</a></li>
+		    <li><a href="#">Contact</a></li>
+  		</ul></nav>
+		</div>
 
 		<center>
 			<div class="mcon">
@@ -107,7 +117,7 @@
 				</div>
 
 			</div>
-			<div class="pfooter"
+			<div class="pfooter"></div>
 		</center>
 
 	</div>
